@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    font-size: 87%;
+  }
+
+  body {
+    @apply antialiased;
+  }
+
+  html.dark {
+    color-scheme: dark;
+  }
+}
+
+@layer components {
+  .section-header {
+    @apply text-4xl sm:text-5xl font-bold mb-4;
+  }
+
+  .btn-primary {
+    @apply px-8 py-4 bg-black dark:bg-white text-white dark:text-black rounded-full font-semibold hover:bg-neutral-800 dark:hover:bg-neutral-200 transition-colors;
+  }
+
+  .btn-secondary {
+    @apply px-8 py-4 border-2 border-black dark:border-white text-black dark:text-white rounded-full font-semibold hover:bg-black hover:text-white dark:hover:bg-white dark:hover:text-black transition-all;
+  }
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #000000;
+  border-radius: 5px;
+  opacity: 1;
+  transition: opacity 0.3s ease;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #333333;
+}
+
+html.dark ::-webkit-scrollbar-thumb {
+  background: #ffffff;
+}
+
+html.dark ::-webkit-scrollbar-thumb:hover {
+  background: #e5e5e5;
+}
+
+/* Hide scrollbar during active scrolling */
+html.scrolling ::-webkit-scrollbar-thumb {
+  opacity: 0;
+}
