@@ -7,19 +7,20 @@ export default function Certifications() {
 
   const certifications = [
     {
-      title: 'Data Structures And Algorithm Training',
-      issuer: 'Cipher Schools',
-      date: 'Aug 2025',
-      description: 'Comprehensive training covering core data structures, advanced algorithms, and problem-solving techniques to optimize code performance.',
-      image: '/images/cert3.png',
-    },
-    {
       title: 'Privacy and Security in Online Social Media',
       issuer: 'NPTEL',
       date: 'Apr 2025',
       description: 'Explored the nuances of data privacy, security threats, and protective measures within modern social media architectures.',
       image: '/images/cert2.png',
     },
+    {
+      title: 'Data Structures And Algorithm Training',
+      issuer: 'Cipher Schools',
+      date: 'Aug 2025',
+      description: 'Comprehensive training covering core data structures, advanced algorithms, and problem-solving techniques to optimize code performance.',
+      image: '/images/cert3.png',
+    },
+    
     {
       title: 'Python Programming',
       issuer: 'CSE Pathsala',
