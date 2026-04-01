@@ -7,7 +7,6 @@ export default function Experience() {
     {
       type: 'Education',
       title: 'B.Tech Computer Science',
-      organization: 'Currently 3rd Year',
       period: '2023 - ongoing',
       description: 'Pursuing a degree with focus on data structures, algorithms, web development, and databases. Building practical skills alongside theoretical knowledge.',
       icon: HiAcademicCap,
@@ -17,7 +16,6 @@ export default function Experience() {
     {
       type: 'Focus',
       title: 'Data Structures & Algorithms',
-      organization: 'Competitive Programming',
       period: 'Ongoing',
       description: 'Strong foundation in DSA using C++. Regular problem-solving to build better programming fundamentals and optimization skills.',
       icon: HiChartBar,
@@ -28,7 +26,6 @@ export default function Experience() {
     {
       type: 'Development',
       title: 'Full-Stack Development',
-      organization: 'Self-Directed Learning',
       period: 'Ongoing',
       description: 'Built multiple production-ready applications using React, Node.js, and various databases. Learned by doing, from frontend to backend architecture.',
       icon: HiSparkles,
@@ -37,10 +34,9 @@ export default function Experience() {
     },
     {
       type: 'Skills',
-      title: 'Soft Skills & Leadership',
-      organization: 'Team Collaboration',
+      title: 'Soft Skills',
       period: 'Ongoing',
-      description: 'Effective communicator and team player with a strong problem-solving mindset. Proven ability to collaborate actively, adapt quickly, and lead initiatives.',
+      description: 'Fast, Intutive learner and team player with a strong problem-solving mindset. Proven ability to collaborate actively, adapt quickly, and lead initiatives.',
       icon: HiTrophy,
       color: 'from-orange-500 to-amber-500',
       bgColor: 'bg-orange-50 dark:bg-orange-900/20',
